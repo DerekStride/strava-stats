@@ -1,0 +1,34 @@
+name: Monthly Strava Update
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'  # 1st of month, midnight UTC
+  workflow_dispatch:      # Manual trigger for testing
+
+jobs:
+  fetch-strava:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Fetch Strava stats
+        run: bundle exec ruby scripts/fetch_strava.rb
+        env:
+          STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
+          STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
+          STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
+
+      - name: Commit stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --quiet --cached || git commit -m "Update Strava stats"
+          git push

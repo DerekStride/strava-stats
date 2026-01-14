@@ -1,0 +1,3 @@
+# Ignore Gemfile.lock to allow CI to resolve latest compatible versions
+# Remove this line if you prefer locked dependencies
+Gemfile.lock

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-14T20:16:05Z",
+  "generated_at": "2026-01-14T20:31:10Z",
   "activities": [
     {
       "date": "2026-01-14",
@@ -75,19 +75,19 @@
     },
     {
       "date": "2025-11-13",
-      "type": "Squash",
-      "name": "Squash",
-      "distance_km": 0.0,
-      "moving_time_minutes": 31,
-      "elevation_gain_meters": 0
-    },
-    {
-      "date": "2025-11-13",
       "type": "Run",
       "name": "Lunch Run",
       "distance_km": 6.8,
       "moving_time_minutes": 35,
       "elevation_gain_meters": 6
+    },
+    {
+      "date": "2025-11-13",
+      "type": "Squash",
+      "name": "Squash",
+      "distance_km": 0.0,
+      "moving_time_minutes": 31,
+      "elevation_gain_meters": 0
     },
     {
       "date": "2025-11-12",
@@ -499,14 +499,6 @@
     },
     {
       "date": "2025-08-30",
-      "type": "Run",
-      "name": "Sprint Triathlon - Run",
-      "distance_km": 5.0,
-      "moving_time_minutes": 23,
-      "elevation_gain_meters": 19
-    },
-    {
-      "date": "2025-08-30",
       "type": "Swim",
       "name": "Sprint Triathlon - Swim",
       "distance_km": 1.4,
@@ -522,6 +514,14 @@
       "elevation_gain_meters": 58
     },
     {
+      "date": "2025-08-30",
+      "type": "Run",
+      "name": "Sprint Triathlon - Run",
+      "distance_km": 5.0,
+      "moving_time_minutes": 23,
+      "elevation_gain_meters": 19
+    },
+    {
       "date": "2025-08-26",
       "type": "Swim",
       "name": "Lunch Swim",
@@ -531,19 +531,19 @@
     },
     {
       "date": "2025-08-25",
-      "type": "Run",
-      "name": "Morning Run",
-      "distance_km": 5.2,
-      "moving_time_minutes": 28,
-      "elevation_gain_meters": 21
-    },
-    {
-      "date": "2025-08-25",
       "type": "Ride",
       "name": "Morning Ride",
       "distance_km": 20.2,
       "moving_time_minutes": 58,
       "elevation_gain_meters": 47
+    },
+    {
+      "date": "2025-08-25",
+      "type": "Run",
+      "name": "Morning Run",
+      "distance_km": 5.2,
+      "moving_time_minutes": 28,
+      "elevation_gain_meters": 21
     },
     {
       "date": "2025-08-24",
@@ -555,19 +555,19 @@
     },
     {
       "date": "2025-08-22",
-      "type": "Run",
-      "name": "Afternoon Run",
-      "distance_km": 6.1,
-      "moving_time_minutes": 32,
-      "elevation_gain_meters": 3
-    },
-    {
-      "date": "2025-08-22",
       "type": "Swim",
       "name": "Shallow Swim to Practice Breathing",
       "distance_km": 0.4,
       "moving_time_minutes": 9,
       "elevation_gain_meters": 0
+    },
+    {
+      "date": "2025-08-22",
+      "type": "Run",
+      "name": "Afternoon Run",
+      "distance_km": 6.1,
+      "moving_time_minutes": 32,
+      "elevation_gain_meters": 3
     },
     {
       "date": "2025-08-21",
@@ -627,14 +627,6 @@
     },
     {
       "date": "2025-08-06",
-      "type": "Ride",
-      "name": "Afternoon Ride",
-      "distance_km": 7.2,
-      "moving_time_minutes": 25,
-      "elevation_gain_meters": 20
-    },
-    {
-      "date": "2025-08-06",
       "type": "WeightTraining",
       "name": "Morning Weight Training",
       "distance_km": 0.0,
@@ -642,12 +634,12 @@
       "elevation_gain_meters": 0
     },
     {
-      "date": "2025-08-05",
-      "type": "Run",
-      "name": "Afternoon Run",
-      "distance_km": 6.2,
-      "moving_time_minutes": 38,
-      "elevation_gain_meters": 15
+      "date": "2025-08-06",
+      "type": "Ride",
+      "name": "Afternoon Ride",
+      "distance_km": 7.2,
+      "moving_time_minutes": 25,
+      "elevation_gain_meters": 20
     },
     {
       "date": "2025-08-05",
@@ -656,6 +648,14 @@
       "distance_km": 11.8,
       "moving_time_minutes": 47,
       "elevation_gain_meters": 13
+    },
+    {
+      "date": "2025-08-05",
+      "type": "Run",
+      "name": "Afternoon Run",
+      "distance_km": 6.2,
+      "moving_time_minutes": 38,
+      "elevation_gain_meters": 15
     },
     {
       "date": "2025-08-04",
@@ -731,11 +731,11 @@
     },
     {
       "date": "2025-07-18",
-      "type": "Ride",
-      "name": "Afternoon Ride",
-      "distance_km": 7.6,
-      "moving_time_minutes": 32,
-      "elevation_gain_meters": 22
+      "type": "Run",
+      "name": "Morning Run",
+      "distance_km": 2.4,
+      "moving_time_minutes": 11,
+      "elevation_gain_meters": 0
     },
     {
       "date": "2025-07-18",
@@ -747,11 +747,11 @@
     },
     {
       "date": "2025-07-18",
-      "type": "Run",
-      "name": "Morning Run",
-      "distance_km": 2.4,
-      "moving_time_minutes": 11,
-      "elevation_gain_meters": 0
+      "type": "Ride",
+      "name": "Afternoon Ride",
+      "distance_km": 7.6,
+      "moving_time_minutes": 32,
+      "elevation_gain_meters": 22
     },
     {
       "date": "2025-07-16",
@@ -795,19 +795,19 @@
     },
     {
       "date": "2025-07-02",
-      "type": "Workout",
-      "name": "Evening Workout",
-      "distance_km": 0.0,
-      "moving_time_minutes": 50,
-      "elevation_gain_meters": 0
-    },
-    {
-      "date": "2025-07-02",
       "type": "Run",
       "name": "Morning Run",
       "distance_km": 2.8,
       "moving_time_minutes": 17,
       "elevation_gain_meters": 20
+    },
+    {
+      "date": "2025-07-02",
+      "type": "Workout",
+      "name": "Evening Workout",
+      "distance_km": 0.0,
+      "moving_time_minutes": 50,
+      "elevation_gain_meters": 0
     },
     {
       "date": "2025-07-01",
@@ -828,14 +828,6 @@
     {
       "date": "2025-06-23",
       "type": "WeightTraining",
-      "name": "Afternoon Weight Training",
-      "distance_km": 0.0,
-      "moving_time_minutes": 25,
-      "elevation_gain_meters": 0
-    },
-    {
-      "date": "2025-06-23",
-      "type": "WeightTraining",
       "name": "Lunch Weight Training",
       "distance_km": 0.0,
       "moving_time_minutes": 21,
@@ -850,11 +842,11 @@
       "elevation_gain_meters": 29
     },
     {
-      "date": "2025-06-21",
+      "date": "2025-06-23",
       "type": "WeightTraining",
-      "name": "Night Weight Training",
+      "name": "Afternoon Weight Training",
       "distance_km": 0.0,
-      "moving_time_minutes": 69,
+      "moving_time_minutes": 25,
       "elevation_gain_meters": 0
     },
     {
@@ -864,6 +856,14 @@
       "distance_km": 8.0,
       "moving_time_minutes": 111,
       "elevation_gain_meters": 274
+    },
+    {
+      "date": "2025-06-21",
+      "type": "WeightTraining",
+      "name": "Night Weight Training",
+      "distance_km": 0.0,
+      "moving_time_minutes": 69,
+      "elevation_gain_meters": 0
     },
     {
       "date": "2025-06-20",
@@ -1387,18 +1387,18 @@
     },
     {
       "date": "2025-02-03",
-      "type": "Workout",
-      "name": "Evening Workout",
-      "distance_km": 0.0,
-      "moving_time_minutes": 57,
-      "elevation_gain_meters": 0
-    },
-    {
-      "date": "2025-02-03",
       "type": "WeightTraining",
       "name": "Lunch Weight Training",
       "distance_km": 0.0,
       "moving_time_minutes": 27,
+      "elevation_gain_meters": 0
+    },
+    {
+      "date": "2025-02-03",
+      "type": "Workout",
+      "name": "Evening Workout",
+      "distance_km": 0.0,
+      "moving_time_minutes": 57,
       "elevation_gain_meters": 0
     },
     {
@@ -1659,19 +1659,19 @@
     },
     {
       "date": "2022-07-02",
-      "type": "Workout",
-      "name": "Afternoon Workout",
-      "distance_km": 0.2,
-      "moving_time_minutes": 4,
-      "elevation_gain_meters": 0
-    },
-    {
-      "date": "2022-07-02",
       "type": "Run",
       "name": "Lunch Run",
       "distance_km": 3.7,
       "moving_time_minutes": 21,
       "elevation_gain_meters": 16
+    },
+    {
+      "date": "2022-07-02",
+      "type": "Workout",
+      "name": "Afternoon Workout",
+      "distance_km": 0.2,
+      "moving_time_minutes": 4,
+      "elevation_gain_meters": 0
     },
     {
       "date": "2022-06-27",
@@ -2171,19 +2171,19 @@
     },
     {
       "date": "2021-07-01",
-      "type": "Ride",
-      "name": "Afternoon Ride",
-      "distance_km": 5.9,
-      "moving_time_minutes": 26,
-      "elevation_gain_meters": 16
-    },
-    {
-      "date": "2021-07-01",
       "type": "Run",
       "name": "Lunch Run",
       "distance_km": 3.7,
       "moving_time_minutes": 25,
       "elevation_gain_meters": 18
+    },
+    {
+      "date": "2021-07-01",
+      "type": "Ride",
+      "name": "Afternoon Ride",
+      "distance_km": 5.9,
+      "moving_time_minutes": 26,
+      "elevation_gain_meters": 16
     },
     {
       "date": "2021-06-29",
@@ -2380,18 +2380,18 @@
     {
       "date": "2020-07-27",
       "type": "Ride",
-      "name": "Evening Ride",
-      "distance_km": 24.3,
-      "moving_time_minutes": 71,
-      "elevation_gain_meters": 62
-    },
-    {
-      "date": "2020-07-27",
-      "type": "Ride",
       "name": "Afternoon Ride",
       "distance_km": 24.4,
       "moving_time_minutes": 74,
       "elevation_gain_meters": 110
+    },
+    {
+      "date": "2020-07-27",
+      "type": "Ride",
+      "name": "Evening Ride",
+      "distance_km": 24.3,
+      "moving_time_minutes": 71,
+      "elevation_gain_meters": 62
     },
     {
       "date": "2020-07-22",
@@ -2428,18 +2428,18 @@
     {
       "date": "2020-07-17",
       "type": "Ride",
-      "name": "Evening Ride",
-      "distance_km": 10.5,
-      "moving_time_minutes": 41,
-      "elevation_gain_meters": 30
-    },
-    {
-      "date": "2020-07-17",
-      "type": "Ride",
       "name": "Morning Ride",
       "distance_km": 106.2,
       "moving_time_minutes": 298,
       "elevation_gain_meters": 323
+    },
+    {
+      "date": "2020-07-17",
+      "type": "Ride",
+      "name": "Evening Ride",
+      "distance_km": 10.5,
+      "moving_time_minutes": 41,
+      "elevation_gain_meters": 30
     },
     {
       "date": "2020-07-16",
@@ -2516,18 +2516,18 @@
     {
       "date": "2020-07-02",
       "type": "Ride",
-      "name": "Afternoon Ride",
-      "distance_km": 13.9,
-      "moving_time_minutes": 37,
-      "elevation_gain_meters": 48
-    },
-    {
-      "date": "2020-07-02",
-      "type": "Ride",
       "name": "Morning Ride",
       "distance_km": 6.6,
       "moving_time_minutes": 26,
       "elevation_gain_meters": 33
+    },
+    {
+      "date": "2020-07-02",
+      "type": "Ride",
+      "name": "Afternoon Ride",
+      "distance_km": 13.9,
+      "moving_time_minutes": 37,
+      "elevation_gain_meters": 48
     },
     {
       "date": "2020-07-02",
@@ -2540,26 +2540,18 @@
     {
       "date": "2020-07-01",
       "type": "Ride",
-      "name": "Afternoon Ride",
-      "distance_km": 27.6,
-      "moving_time_minutes": 80,
-      "elevation_gain_meters": 101
-    },
-    {
-      "date": "2020-07-01",
-      "type": "Ride",
       "name": "Morning Ride",
       "distance_km": 50.3,
       "moving_time_minutes": 152,
       "elevation_gain_meters": 184
     },
     {
-      "date": "2020-06-30",
+      "date": "2020-07-01",
       "type": "Ride",
-      "name": "Night Ride",
-      "distance_km": 4.0,
-      "moving_time_minutes": 17,
-      "elevation_gain_meters": 18
+      "name": "Afternoon Ride",
+      "distance_km": 27.6,
+      "moving_time_minutes": 80,
+      "elevation_gain_meters": 101
     },
     {
       "date": "2020-06-30",
@@ -2568,6 +2560,14 @@
       "distance_km": 15.3,
       "moving_time_minutes": 57,
       "elevation_gain_meters": 63
+    },
+    {
+      "date": "2020-06-30",
+      "type": "Ride",
+      "name": "Night Ride",
+      "distance_km": 4.0,
+      "moving_time_minutes": 17,
+      "elevation_gain_meters": 18
     },
     {
       "date": "2020-06-29",
@@ -2580,10 +2580,10 @@
     {
       "date": "2020-06-26",
       "type": "Ride",
-      "name": "Night Ride",
-      "distance_km": 4.8,
-      "moving_time_minutes": 18,
-      "elevation_gain_meters": 12
+      "name": "Afternoon Ride",
+      "distance_km": 29.8,
+      "moving_time_minutes": 84,
+      "elevation_gain_meters": 134
     },
     {
       "date": "2020-06-26",
@@ -2596,10 +2596,10 @@
     {
       "date": "2020-06-26",
       "type": "Ride",
-      "name": "Afternoon Ride",
-      "distance_km": 29.8,
-      "moving_time_minutes": 84,
-      "elevation_gain_meters": 134
+      "name": "Night Ride",
+      "distance_km": 4.8,
+      "moving_time_minutes": 18,
+      "elevation_gain_meters": 12
     },
     {
       "date": "2020-06-25",
@@ -2628,10 +2628,10 @@
     {
       "date": "2020-06-22",
       "type": "Ride",
-      "name": "Night Ride",
-      "distance_km": 3.6,
-      "moving_time_minutes": 22,
-      "elevation_gain_meters": 14
+      "name": "Morning Ride",
+      "distance_km": 2.7,
+      "moving_time_minutes": 15,
+      "elevation_gain_meters": 11
     },
     {
       "date": "2020-06-22",
@@ -2644,10 +2644,10 @@
     {
       "date": "2020-06-22",
       "type": "Ride",
-      "name": "Morning Ride",
-      "distance_km": 2.7,
-      "moving_time_minutes": 15,
-      "elevation_gain_meters": 11
+      "name": "Night Ride",
+      "distance_km": 3.6,
+      "moving_time_minutes": 22,
+      "elevation_gain_meters": 14
     },
     {
       "date": "2020-06-19",
@@ -2730,17 +2730,17 @@
         "moving_time_hours": 0.52,
         "elevation_gain_meters": 0
       },
-      "Yoga": {
-        "count": 1,
-        "distance_km": 0.0,
-        "moving_time_hours": 0.24,
-        "elevation_gain_meters": 0
-      },
       "Walk": {
         "count": 1,
         "distance_km": 8.0,
         "moving_time_hours": 1.85,
         "elevation_gain_meters": 274
+      },
+      "Yoga": {
+        "count": 1,
+        "distance_km": 0.0,
+        "moving_time_hours": 0.24,
+        "elevation_gain_meters": 0
       }
     }
   }

@@ -59,7 +59,7 @@ def aggregate_stats(activities)
   by_type = Hash.new { |h, k| h[k] = { count: 0, distance_miles: 0.0, moving_time_hours: 0.0, elevation_gain_feet: 0.0 } }
 
   activities.each do |activity|
-    type = activity.type
+    type = activity.sport_type
     by_type[type][:count] += 1
     by_type[type][:distance_miles] += (activity.distance || 0) * METERS_TO_MILES
     by_type[type][:moving_time_hours] += (activity.moving_time || 0) / 3600.0

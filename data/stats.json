@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-01-14T19:42:40Z",
+  "period": "last_365_days",
+  "by_type": {
+    "WeightTraining": {
+      "count": 86,
+      "distance_miles": 0.0,
+      "moving_time_hours": 45.52,
+      "elevation_gain_feet": 0
+    },
+    "Run": {
+      "count": 74,
+      "distance_miles": 293.5,
+      "moving_time_hours": 44.3,
+      "elevation_gain_feet": 4226
+    },
+    "Ride": {
+      "count": 10,
+      "distance_miles": 81.1,
+      "moving_time_hours": 7.56,
+      "elevation_gain_feet": 806
+    },
+    "Swim": {
+      "count": 5,
+      "distance_miles": 2.3,
+      "moving_time_hours": 1.55,
+      "elevation_gain_feet": 0
+    },
+    "Workout": {
+      "count": 4,
+      "distance_miles": 0.0,
+      "moving_time_hours": 2.85,
+      "elevation_gain_feet": 0
+    },
+    "Squash": {
+      "count": 1,
+      "distance_miles": 0.0,
+      "moving_time_hours": 0.52,
+      "elevation_gain_feet": 0
+    },
+    "Yoga": {
+      "count": 1,
+      "distance_miles": 0.0,
+      "moving_time_hours": 0.24,
+      "elevation_gain_feet": 0
+    },
+    "Walk": {
+      "count": 1,
+      "distance_miles": 5.0,
+      "moving_time_hours": 1.85,
+      "elevation_gain_feet": 899
+    },
+    "Hike": {
+      "count": 1,
+      "distance_miles": 1.7,
+      "moving_time_hours": 0.79,
+      "elevation_gain_feet": 414
+    }
+  },
+  "totals": {
+    "count": 183,
+    "distance_miles": 383.6,
+    "moving_time_hours": 105.18,
+    "elevation_gain_feet": 6345
+  }
+}

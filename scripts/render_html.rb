@@ -163,13 +163,15 @@ def render_page(year:, months:, totals:, year_stats:, all_years:, current_year:,
       <h1>#{year}</h1>
       <p class="updated">Updated #{format_date(generated_at)}</p>
 
+      #{render_year_links(all_years: all_years, current_year: current_year, page_year: year)}
+
       #{render_year_stats(year_stats, is_current_year)}
 
       <div class="months-grid">
         #{months_to_show.map { |m| render_month(year, m, months[m] || {}) }.join("\n")}
       </div>
 
-      #{render_footer(totals: totals, all_years: all_years, current_year: current_year, page_year: year)}
+      #{render_footer(totals: totals)}
 
       <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
       <script>lucide.createIcons();</script>
@@ -179,15 +181,14 @@ def render_page(year:, months:, totals:, year_stats:, all_years:, current_year:,
 end
 
 def render_year_stats(year_stats, is_current_year)
-  label = is_current_year ? 'Year to Date' : 'Year Total'
+  label = is_current_year ? 'Year to Date' : 'Total'
   type_stats = render_type_stats(year_stats[:by_type])
 
   <<~HTML
     <div class="year-stats">
-      <div class="stats-row">
-        <span class="stats-label">#{label}</span>
-        <span><span class="stat-value">#{year_stats[:count]}</span><span class="stat-label">activities</span></span>
-        <span><span class="stat-value">#{format_hours(year_stats[:moving_time_hours])}</span><span class="stat-label">hours</span></span>
+      <div class="stat-block">
+        <span class="stat-block-label">#{label}</span>
+        <span class="stat-block-values"><span class="stat-value">#{year_stats[:count]}</span><span class="stat-label">activities</span> <span class="stat-value">#{format_hours(year_stats[:moving_time_hours])}</span><span class="stat-label">hours</span></span>
       </div>
       #{type_stats}
     </div>
@@ -217,7 +218,7 @@ def render_type_stats(by_type)
     if DURATION_TYPES.include?(type)
       # Duration-based: count + hours
       hours = t[:moving_time_hours] || t['moving_time_hours'] || 0
-      stats_parts << "<span class=\"type-stat\"><span class=\"type-name\">#{display_name}</span> <span class=\"stat-value\">#{count}</span><span class=\"stat-label\">sessions</span> <span class=\"stat-value\">#{format_hours(hours)}</span><span class=\"stat-label\">hours</span></span>"
+      stats_parts << "<span class=\"type-stat\"><span class=\"type-name\">#{display_name}</span><span class=\"type-stat-values\"><span class=\"stat-value\">#{count}</span><span class=\"stat-label\">sessions</span> <span class=\"stat-value\">#{format_hours(hours)}</span><span class=\"stat-label\">hours</span></span></span>"
     else
       # Distance-based: count + km + elevation
       dist = t[:distance_km] || t['distance_km'] || 0
@@ -225,17 +226,13 @@ def render_type_stats(by_type)
 
       elev = t[:elevation_gain_meters] || t['elevation_gain_meters'] || 0
       elevation_part = elev > 0 ? " <span class=\"stat-value\">#{format_number(elev)}</span><span class=\"stat-label\">m</span>" : ''
-      stats_parts << "<span class=\"type-stat\"><span class=\"type-name\">#{display_name}</span> <span class=\"stat-value\">#{count}</span><span class=\"stat-label\">sessions</span> <span class=\"stat-value\">#{format_number(dist)}</span><span class=\"stat-label\">km</span>#{elevation_part}</span>"
+      stats_parts << "<span class=\"type-stat\"><span class=\"type-name\">#{display_name}</span><span class=\"type-stat-values\"><span class=\"stat-value\">#{count}</span><span class=\"stat-label\">sessions</span> <span class=\"stat-value\">#{format_number(dist)}</span><span class=\"stat-label\">km</span>#{elevation_part}</span></span>"
     end
   end
 
   return '' if stats_parts.empty?
 
-  <<~HTML
-    <div class="stats-row type-stats">
-        #{stats_parts.join("\n        ")}
-      </div>
-  HTML
+  stats_parts.join("\n    ")
 end
 
 def format_type_name(type)
@@ -286,7 +283,7 @@ def render_calendar_days(start_weekday, days_in_month, activity_days)
   cells.join("\n        ")
 end
 
-def render_footer(totals:, all_years:, current_year:, page_year:)
+def render_year_links(all_years:, current_year:, page_year:)
   year_links = all_years.map do |y|
     href = y == current_year ? 'index.html' : "#{y}.html"
     css_class = y == page_year ? 'current' : ''
@@ -294,17 +291,20 @@ def render_footer(totals:, all_years:, current_year:, page_year:)
   end.join("\n        ")
 
   <<~HTML
-    <footer>
-      <div class="year-links">
+    <div class="year-links">
         <div class="year-links-label">Years</div>
         #{year_links}
       </div>
+  HTML
+end
 
+def render_footer(totals:)
+  <<~HTML
+    <footer>
       <div class="totals">
-        <div class="totals-label">All Time</div>
-        <div class="stats-row">
-          <span><span class="stat-value">#{totals[:count]}</span><span class="stat-label">activities</span></span>
-          <span><span class="stat-value">#{format_hours(totals[:moving_time_hours])}</span><span class="stat-label">hours</span></span>
+        <div class="stat-block">
+          <span class="stat-block-label">All Time</span>
+          <span class="stat-block-values"><span class="stat-value">#{totals[:count]}</span><span class="stat-label">activities</span> <span class="stat-value">#{format_hours(totals[:moving_time_hours])}</span><span class="stat-label">hours</span></span>
         </div>
         #{render_type_stats(totals[:by_type])}
       </div>

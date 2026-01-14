@@ -24,12 +24,12 @@
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 14px;
+  font-size: 22px;
   line-height: 1.5;
   color: var(--text);
   background: var(--bg);
   padding: 2rem;
-  max-width: 720px;
+  max-width: 1080px;
   margin: 0 auto;
 }
 
@@ -50,46 +50,65 @@ h1 {
   margin-bottom: 1.5rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--border);
-}
-
-.year-stats .stats-row {
   display: flex;
-  align-items: baseline;
-  gap: 1.5rem;
-  font-size: 0.8rem;
   flex-wrap: wrap;
+  gap: 1rem 2rem;
 }
 
-.year-stats .stats-label {
-  font-size: 0.7rem;
+/* Stat block - label above values */
+.stat-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.stat-block-label {
+  font-size: 0.6rem;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  min-width: 80px;
 }
 
-/* Type-specific stats */
-.type-stats {
-  margin-top: 0.5rem;
-  gap: 1.5rem;
+.stat-block-values {
+  display: flex;
+  align-items: baseline;
+  gap: 0.25rem;
+  white-space: nowrap;
+}
+
+.stat-block-values .stat-value {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.stat-block-values .stat-label {
+  font-size: 0.7rem;
+  margin-right: 0.5rem;
 }
 
 .type-stat {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
 }
 
 .type-name {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: var(--muted);
   text-transform: uppercase;
-  letter-spacing: 0.03em;
-  margin-right: 0.25rem;
+  letter-spacing: 0.05em;
+}
+
+.type-stat-values {
+  display: flex;
+  align-items: baseline;
+  gap: 0.25rem;
+  white-space: nowrap;
 }
 
 .type-stat .stat-value {
-  font-size: 0.85rem;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .type-stat .stat-label {
@@ -102,6 +121,12 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
+}
+
+@media (max-width: 600px) {
+  .months-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .month {
@@ -152,20 +177,20 @@ h1 {
 }
 
 .day.has-activity svg {
-  width: 12px;
-  height: 12px;
+  width: 20px;
+  height: 20px;
   stroke-width: 2;
 }
 
 .day .badge {
   position: absolute;
-  top: -2px;
-  right: -2px;
+  top: -3px;
+  right: -3px;
   background: var(--text);
   color: var(--bg);
-  font-size: 0.45rem;
-  width: 10px;
-  height: 10px;
+  font-size: 0.5rem;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -213,7 +238,7 @@ footer {
 }
 
 .year-links {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .year-links-label {
@@ -240,21 +265,9 @@ footer {
 }
 
 .totals {
-  padding-top: 1rem;
-}
-
-.totals-label {
-  font-size: 0.7rem;
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: 0.5rem;
-}
-
-.stats-row {
   display: flex;
-  gap: 2rem;
-  font-size: 0.8rem;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
 }
 
 .stat-value {

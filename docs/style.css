@@ -1,0 +1,268 @@
+:root {
+  --bg: #fafafa;
+  --text: #1a1a1a;
+  --muted: #666;
+  --border: #ddd;
+  --accent: #fc4c02;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e5e5e5;
+    --muted: #888;
+    --border: #333;
+    --accent: #fc4c02;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+  padding: 2rem;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.updated {
+  color: var(--muted);
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+/* Year stats header */
+.year-stats {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.year-stats .stats-row {
+  display: flex;
+  align-items: baseline;
+  gap: 1.5rem;
+  font-size: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.year-stats .stats-label {
+  font-size: 0.7rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  min-width: 80px;
+}
+
+/* Type-specific stats */
+.type-stats {
+  margin-top: 0.5rem;
+  gap: 1.5rem;
+}
+
+.type-stat {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.25rem;
+}
+
+.type-name {
+  font-size: 0.7rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-right: 0.25rem;
+}
+
+.type-stat .stat-value {
+  font-size: 0.85rem;
+}
+
+.type-stat .stat-label {
+  font-size: 0.7rem;
+  margin-right: 0.5rem;
+}
+
+/* Month grid - 3 columns x 4 rows */
+.months-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.month {
+  min-width: 0;
+}
+
+.month-header {
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1px;
+  font-variant-numeric: tabular-nums;
+}
+
+.calendar-header {
+  font-size: 0.55rem;
+  color: var(--muted);
+  text-align: center;
+  padding: 0.15rem 0;
+}
+
+.day {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.55rem;
+  border-radius: 2px;
+  color: var(--muted);
+  position: relative;
+}
+
+.day.empty {
+  background: transparent;
+}
+
+.day.has-activity {
+  background: var(--bg);
+  color: var(--accent);
+}
+
+.day.has-activity svg {
+  width: 12px;
+  height: 12px;
+  stroke-width: 2;
+}
+
+.day .badge {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  background: var(--text);
+  color: var(--bg);
+  font-size: 0.45rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+/* Custom tooltip */
+.day.has-activity .tooltip {
+  position: absolute;
+  bottom: calc(100% + 4px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--text);
+  color: var(--bg);
+  font-size: 0.65rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.1s;
+  z-index: 10;
+}
+
+.day.has-activity .tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 4px solid transparent;
+  border-top-color: var(--text);
+}
+
+.day.has-activity:hover .tooltip {
+  opacity: 1;
+}
+
+/* Footer */
+footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.year-links {
+  margin-bottom: 1.5rem;
+}
+
+.year-links-label {
+  font-size: 0.7rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.year-links a {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.85rem;
+  margin-right: 1rem;
+}
+
+.year-links a:hover {
+  color: var(--accent);
+}
+
+.year-links a.current {
+  font-weight: 600;
+}
+
+.totals {
+  padding-top: 1rem;
+}
+
+.totals-label {
+  font-size: 0.7rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.stats-row {
+  display: flex;
+  gap: 2rem;
+  font-size: 0.8rem;
+}
+
+.stat-value {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.stat-label {
+  color: var(--muted);
+  margin-left: 0.25rem;
+}

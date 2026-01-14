@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-14T19:42:40Z",
+  "generated_at": "2026-01-14T19:49:21Z",
   "period": "last_365_days",
   "by_type": {
     "WeightTraining": {
@@ -32,12 +32,6 @@
       "moving_time_hours": 2.85,
       "elevation_gain_feet": 0
     },
-    "Squash": {
-      "count": 1,
-      "distance_miles": 0.0,
-      "moving_time_hours": 0.52,
-      "elevation_gain_feet": 0
-    },
     "Yoga": {
       "count": 1,
       "distance_miles": 0.0,
@@ -55,6 +49,12 @@
       "distance_miles": 1.7,
       "moving_time_hours": 0.79,
       "elevation_gain_feet": 414
+    },
+    "Squash": {
+      "count": 1,
+      "distance_miles": 0.0,
+      "moving_time_hours": 0.52,
+      "elevation_gain_feet": 0
     }
   },
   "totals": {

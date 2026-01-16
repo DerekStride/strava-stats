@@ -94,3 +94,8 @@ Uses [Lucide](https://lucide.dev) icons:
 | Swim | waves |
 | Yoga | flower |
 | Hike | mountain |
+
+## Preview
+
+<img width="378" height="627" alt="Screenshot 2026-01-16 at 10 48 28" src="https://github.com/user-attachments/assets/a6fc073c-bce5-45b4-966f-ecadd81a9482" />
+

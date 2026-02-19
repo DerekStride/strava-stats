@@ -1,0 +1,14 @@
+name = "strava-stats"
+compatibility_date = "2024-12-01"
+pages_build_output_dir = "public"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "strava-stats"
+database_id = "placeholder-replace-after-d1-create"
+
+# Set these via `wrangler pages secret put`:
+#   STRAVA_CLIENT_ID
+#   STRAVA_CLIENT_SECRET
+#   SESSION_SECRET        (random 64-char hex string)
+#   ENCRYPTION_KEY        (random 64-char hex string)

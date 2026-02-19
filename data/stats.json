@@ -1,6 +1,46 @@
 {
-  "generated_at": "2026-02-09T18:01:24Z",
+  "generated_at": "2026-02-19T18:01:19Z",
   "activities": [
+    {
+      "date": "2026-02-19",
+      "type": "WeightTraining",
+      "name": "Lunch Weight Training",
+      "distance_km": 0.0,
+      "moving_time_minutes": 36,
+      "elevation_gain_meters": 0
+    },
+    {
+      "date": "2026-02-17",
+      "type": "WeightTraining",
+      "name": "Lunch Weight Training",
+      "distance_km": 0.0,
+      "moving_time_minutes": 30,
+      "elevation_gain_meters": 0
+    },
+    {
+      "date": "2026-02-13",
+      "type": "WeightTraining",
+      "name": "Lunch Weight Training",
+      "distance_km": 0.0,
+      "moving_time_minutes": 33,
+      "elevation_gain_meters": 0
+    },
+    {
+      "date": "2026-02-11",
+      "type": "WeightTraining",
+      "name": "Lunch Weight Training",
+      "distance_km": 0.0,
+      "moving_time_minutes": 33,
+      "elevation_gain_meters": 0
+    },
+    {
+      "date": "2026-02-10",
+      "type": "Run",
+      "name": "Morning Run",
+      "distance_km": 2.6,
+      "moving_time_minutes": 17,
+      "elevation_gain_meters": 0
+    },
     {
       "date": "2026-02-09",
       "type": "WeightTraining",
@@ -2747,21 +2787,21 @@
     }
   ],
   "totals": {
-    "count": 343,
-    "distance_km": 2601.1,
-    "moving_time_hours": 246.45,
+    "count": 348,
+    "distance_km": 2603.8,
+    "moving_time_hours": 248.93,
     "elevation_gain_meters": 11042,
     "by_type": {
       "Run": {
-        "count": 167,
-        "distance_km": 856.3,
-        "moving_time_hours": 84.51,
+        "count": 168,
+        "distance_km": 858.9,
+        "moving_time_hours": 84.79,
         "elevation_gain_meters": 2857
       },
       "WeightTraining": {
-        "count": 95,
+        "count": 99,
         "distance_km": 0.0,
-        "moving_time_hours": 50.6,
+        "moving_time_hours": 52.8,
         "elevation_gain_meters": 0
       },
       "Ride": {

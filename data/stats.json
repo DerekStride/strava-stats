@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-02-19T18:01:19Z",
+  "generated_at": "2026-03-01T02:33:23Z",
   "activities": [
+    {
+      "date": "2026-02-27",
+      "type": "WeightTraining",
+      "name": "Afternoon Weight Training",
+      "distance_km": 0.0,
+      "moving_time_minutes": 34,
+      "elevation_gain_meters": 0
+    },
     {
       "date": "2026-02-19",
       "type": "WeightTraining",
@@ -2787,9 +2795,9 @@
     }
   ],
   "totals": {
-    "count": 348,
+    "count": 349,
     "distance_km": 2603.8,
-    "moving_time_hours": 248.93,
+    "moving_time_hours": 249.5,
     "elevation_gain_meters": 11042,
     "by_type": {
       "Run": {
@@ -2799,9 +2807,9 @@
         "elevation_gain_meters": 2857
       },
       "WeightTraining": {
-        "count": 99,
+        "count": 100,
         "distance_km": 0.0,
-        "moving_time_hours": 52.8,
+        "moving_time_hours": 53.38,
         "elevation_gain_meters": 0
       },
       "Ride": {

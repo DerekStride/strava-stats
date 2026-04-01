@@ -1,6 +1,54 @@
 {
-  "generated_at": "2026-03-04T17:58:27Z",
+  "generated_at": "2026-04-01T02:48:54Z",
   "activities": [
+    {
+      "date": "2026-03-24",
+      "type": "WeightTraining",
+      "name": "Lunch Weight Training",
+      "distance_km": 0.0,
+      "moving_time_minutes": 31,
+      "elevation_gain_meters": 0
+    },
+    {
+      "date": "2026-03-18",
+      "type": "Run",
+      "name": "Lunch Run",
+      "distance_km": 2.2,
+      "moving_time_minutes": 12,
+      "elevation_gain_meters": 5
+    },
+    {
+      "date": "2026-03-16",
+      "type": "Run",
+      "name": "Lunch Run",
+      "distance_km": 3.3,
+      "moving_time_minutes": 18,
+      "elevation_gain_meters": 7
+    },
+    {
+      "date": "2026-03-13",
+      "type": "WeightTraining",
+      "name": "Lunch Weight Training",
+      "distance_km": 0.0,
+      "moving_time_minutes": 8,
+      "elevation_gain_meters": 0
+    },
+    {
+      "date": "2026-03-11",
+      "type": "WeightTraining",
+      "name": "Lunch Weight Training",
+      "distance_km": 0.0,
+      "moving_time_minutes": 22,
+      "elevation_gain_meters": 0
+    },
+    {
+      "date": "2026-03-09",
+      "type": "WeightTraining",
+      "name": "Lunch Weight Training",
+      "distance_km": 0.0,
+      "moving_time_minutes": 41,
+      "elevation_gain_meters": 0
+    },
     {
       "date": "2026-03-04",
       "type": "WeightTraining",
@@ -2819,21 +2867,21 @@
     }
   ],
   "totals": {
-    "count": 352,
-    "distance_km": 2660.1,
-    "moving_time_hours": 254.05,
-    "elevation_gain_meters": 15126,
+    "count": 358,
+    "distance_km": 2665.6,
+    "moving_time_hours": 256.28,
+    "elevation_gain_meters": 15138,
     "by_type": {
       "Run": {
-        "count": 168,
-        "distance_km": 858.9,
-        "moving_time_hours": 84.79,
-        "elevation_gain_meters": 2857
+        "count": 170,
+        "distance_km": 864.4,
+        "moving_time_hours": 85.29,
+        "elevation_gain_meters": 2869
       },
       "WeightTraining": {
-        "count": 102,
+        "count": 106,
         "distance_km": 0.0,
-        "moving_time_hours": 54.52,
+        "moving_time_hours": 56.24,
         "elevation_gain_meters": 0
       },
       "Ride": {

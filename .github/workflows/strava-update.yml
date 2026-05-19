@@ -1,8 +1,9 @@
-name: Monthly Strava Update
+name: Strava Update
 
 on:
   schedule:
     - cron: '0 0 1 * *'  # 1st of month, midnight UTC
+    - cron: '0 0 * * 0'  # every Sunday, midnight UTC
   workflow_dispatch:      # Manual trigger for testing
   push:
     branches:

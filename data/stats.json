@@ -1,6 +1,86 @@
 {
-  "generated_at": "2026-05-01T03:36:53Z",
+  "generated_at": "2026-05-19T17:56:01Z",
   "activities": [
+    {
+      "date": "2026-05-19",
+      "type": "Run",
+      "name": "Lunch Run",
+      "distance_km": 9.3,
+      "moving_time_minutes": 56,
+      "elevation_gain_meters": 29
+    },
+    {
+      "date": "2026-05-18",
+      "type": "Ride",
+      "name": "Morning Ride",
+      "distance_km": 9.5,
+      "moving_time_minutes": 49,
+      "elevation_gain_meters": 32
+    },
+    {
+      "date": "2026-05-15",
+      "type": "Run",
+      "name": "Lunch Run",
+      "distance_km": 6.0,
+      "moving_time_minutes": 31,
+      "elevation_gain_meters": 24
+    },
+    {
+      "date": "2026-05-14",
+      "type": "WeightTraining",
+      "name": "Lunch Weight Training",
+      "distance_km": 0.0,
+      "moving_time_minutes": 21,
+      "elevation_gain_meters": 0
+    },
+    {
+      "date": "2026-05-12",
+      "type": "Run",
+      "name": "Lunch Run",
+      "distance_km": 7.1,
+      "moving_time_minutes": 42,
+      "elevation_gain_meters": 44
+    },
+    {
+      "date": "2026-05-11",
+      "type": "WeightTraining",
+      "name": "Afternoon Weight Training",
+      "distance_km": 0.0,
+      "moving_time_minutes": 31,
+      "elevation_gain_meters": 0
+    },
+    {
+      "date": "2026-05-06",
+      "type": "Run",
+      "name": "Lunch Run",
+      "distance_km": 5.7,
+      "moving_time_minutes": 34,
+      "elevation_gain_meters": 26
+    },
+    {
+      "date": "2026-05-05",
+      "type": "WeightTraining",
+      "name": "Lunch Weight Training",
+      "distance_km": 0.0,
+      "moving_time_minutes": 41,
+      "elevation_gain_meters": 0
+    },
+    {
+      "date": "2026-05-04",
+      "type": "Run",
+      "name": "Lunch Run",
+      "distance_km": 6.0,
+      "moving_time_minutes": 34,
+      "elevation_gain_meters": 16
+    },
+    {
+      "date": "2026-05-01",
+      "type": "Run",
+      "name": "Lunch Run",
+      "distance_km": 5.4,
+      "moving_time_minutes": 31,
+      "elevation_gain_meters": 16
+    },
     {
       "date": "2026-04-30",
       "type": "WeightTraining",
@@ -2939,28 +3019,28 @@
     }
   ],
   "totals": {
-    "count": 367,
-    "distance_km": 2677.1,
-    "moving_time_hours": 259.71,
-    "elevation_gain_meters": 15157,
+    "count": 377,
+    "distance_km": 2726.1,
+    "moving_time_hours": 265.88,
+    "elevation_gain_meters": 15344,
     "by_type": {
       "Run": {
-        "count": 174,
-        "distance_km": 875.9,
-        "moving_time_hours": 86.36,
-        "elevation_gain_meters": 2888
+        "count": 180,
+        "distance_km": 915.4,
+        "moving_time_hours": 90.17,
+        "elevation_gain_meters": 3043
       },
       "WeightTraining": {
-        "count": 111,
+        "count": 114,
         "distance_km": 0.0,
-        "moving_time_hours": 58.61,
+        "moving_time_hours": 60.15,
         "elevation_gain_meters": 0
       },
       "Ride": {
-        "count": 61,
-        "distance_km": 1678.2,
-        "moving_time_hours": 87.16,
-        "elevation_gain_meters": 5931
+        "count": 62,
+        "distance_km": 1687.7,
+        "moving_time_hours": 87.98,
+        "elevation_gain_meters": 5963
       },
       "Swim": {
         "count": 6,

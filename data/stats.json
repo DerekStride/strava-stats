@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-05-19T18:09:38Z",
+  "generated_at": "2026-05-24T03:40:15Z",
   "activities": [
+    {
+      "date": "2026-05-22",
+      "type": "Hike",
+      "name": "Grouse Grind",
+      "distance_km": 2.0,
+      "moving_time_minutes": 50,
+      "elevation_gain_meters": 784
+    },
+    {
+      "date": "2026-05-20",
+      "type": "Volleyball",
+      "name": "Beach Volleyball",
+      "distance_km": 0.0,
+      "moving_time_minutes": 53,
+      "elevation_gain_meters": 0
+    },
     {
       "date": "2026-05-19",
       "type": "Run",
@@ -3019,10 +3035,10 @@
     }
   ],
   "totals": {
-    "count": 377,
-    "distance_km": 2726.1,
-    "moving_time_hours": 265.88,
-    "elevation_gain_meters": 15344,
+    "count": 379,
+    "distance_km": 2728.1,
+    "moving_time_hours": 267.59,
+    "elevation_gain_meters": 16128,
     "by_type": {
       "Run": {
         "count": 180,
@@ -3042,6 +3058,12 @@
         "moving_time_hours": 87.98,
         "elevation_gain_meters": 5963
       },
+      "Hike": {
+        "count": 6,
+        "distance_km": 56.2,
+        "moving_time_hours": 17.59,
+        "elevation_gain_meters": 2764
+      },
       "Swim": {
         "count": 6,
         "distance_km": 4.2,
@@ -3054,11 +3076,11 @@
         "moving_time_hours": 2.92,
         "elevation_gain_meters": 0
       },
-      "Hike": {
-        "count": 5,
-        "distance_km": 54.2,
-        "moving_time_hours": 16.76,
-        "elevation_gain_meters": 1980
+      "Volleyball": {
+        "count": 1,
+        "distance_km": 0.0,
+        "moving_time_hours": 0.88,
+        "elevation_gain_meters": 0
       },
       "AlpineSki": {
         "count": 1,

@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-05-24T03:40:15Z",
+  "generated_at": "2026-05-31T03:56:25Z",
   "activities": [
+    {
+      "date": "2026-05-28",
+      "type": "Run",
+      "name": "Lunch Run w/ Mitch",
+      "distance_km": 5.4,
+      "moving_time_minutes": 30,
+      "elevation_gain_meters": 21
+    },
+    {
+      "date": "2026-05-27",
+      "type": "Volleyball",
+      "name": "Beach Volleyball",
+      "distance_km": 0.0,
+      "moving_time_minutes": 58,
+      "elevation_gain_meters": 0
+    },
+    {
+      "date": "2026-05-26",
+      "type": "Ride",
+      "name": "Afternoon Ride",
+      "distance_km": 16.2,
+      "moving_time_minutes": 58,
+      "elevation_gain_meters": 48
+    },
     {
       "date": "2026-05-22",
       "type": "Hike",
@@ -3035,16 +3059,16 @@
     }
   ],
   "totals": {
-    "count": 379,
-    "distance_km": 2728.1,
-    "moving_time_hours": 267.59,
-    "elevation_gain_meters": 16128,
+    "count": 382,
+    "distance_km": 2749.7,
+    "moving_time_hours": 270.03,
+    "elevation_gain_meters": 16197,
     "by_type": {
       "Run": {
-        "count": 180,
-        "distance_km": 915.4,
-        "moving_time_hours": 90.17,
-        "elevation_gain_meters": 3043
+        "count": 181,
+        "distance_km": 920.8,
+        "moving_time_hours": 90.67,
+        "elevation_gain_meters": 3064
       },
       "WeightTraining": {
         "count": 114,
@@ -3053,10 +3077,10 @@
         "elevation_gain_meters": 0
       },
       "Ride": {
-        "count": 62,
-        "distance_km": 1687.7,
-        "moving_time_hours": 87.98,
-        "elevation_gain_meters": 5963
+        "count": 63,
+        "distance_km": 1703.9,
+        "moving_time_hours": 88.94,
+        "elevation_gain_meters": 6011
       },
       "Hike": {
         "count": 6,
@@ -3077,9 +3101,9 @@
         "elevation_gain_meters": 0
       },
       "Volleyball": {
-        "count": 1,
+        "count": 2,
         "distance_km": 0.0,
-        "moving_time_hours": 0.88,
+        "moving_time_hours": 1.86,
         "elevation_gain_meters": 0
       },
       "AlpineSki": {

@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-06-21T04:17:17Z",
+  "generated_at": "2026-06-28T03:54:25Z",
   "activities": [
+    {
+      "date": "2026-06-24",
+      "type": "Volleyball",
+      "name": "Beach Volleyball",
+      "distance_km": 0.0,
+      "moving_time_minutes": 54,
+      "elevation_gain_meters": 0
+    },
+    {
+      "date": "2026-06-21",
+      "type": "WeightTraining",
+      "name": "Night Weight Training",
+      "distance_km": 0.0,
+      "moving_time_minutes": 9,
+      "elevation_gain_meters": 0
+    },
     {
       "date": "2026-06-12",
       "type": "Run",
@@ -3139,9 +3155,9 @@
     }
   ],
   "totals": {
-    "count": 392,
+    "count": 394,
     "distance_km": 2787.8,
-    "moving_time_hours": 275.94,
+    "moving_time_hours": 276.98,
     "elevation_gain_meters": 16280,
     "by_type": {
       "Run": {
@@ -3151,9 +3167,9 @@
         "elevation_gain_meters": 3147
       },
       "WeightTraining": {
-        "count": 116,
+        "count": 117,
         "distance_km": 0.0,
-        "moving_time_hours": 60.86,
+        "moving_time_hours": 61.0,
         "elevation_gain_meters": 0
       },
       "Ride": {
@@ -3181,9 +3197,9 @@
         "elevation_gain_meters": 0
       },
       "Volleyball": {
-        "count": 4,
+        "count": 5,
         "distance_km": 0.0,
-        "moving_time_hours": 3.37,
+        "moving_time_hours": 4.27,
         "elevation_gain_meters": 0
       },
       "AlpineSki": {

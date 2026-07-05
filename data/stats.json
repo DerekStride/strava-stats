@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-07-01T02:01:29Z",
+  "generated_at": "2026-07-05T03:28:04Z",
   "activities": [
+    {
+      "date": "2026-07-04",
+      "type": "Run",
+      "name": "Lunch Run",
+      "distance_km": 3.3,
+      "moving_time_minutes": 20,
+      "elevation_gain_meters": 7
+    },
     {
       "date": "2026-06-24",
       "type": "Volleyball",
@@ -3155,16 +3163,16 @@
     }
   ],
   "totals": {
-    "count": 394,
-    "distance_km": 2787.8,
-    "moving_time_hours": 276.98,
-    "elevation_gain_meters": 16280,
+    "count": 395,
+    "distance_km": 2791.2,
+    "moving_time_hours": 277.32,
+    "elevation_gain_meters": 16287,
     "by_type": {
       "Run": {
-        "count": 187,
-        "distance_km": 959.0,
-        "moving_time_hours": 94.35,
-        "elevation_gain_meters": 3147
+        "count": 188,
+        "distance_km": 962.3,
+        "moving_time_hours": 94.69,
+        "elevation_gain_meters": 3154
       },
       "WeightTraining": {
         "count": 117,

@@ -1,6 +1,38 @@
 {
-  "generated_at": "2026-07-05T03:28:04Z",
+  "generated_at": "2026-07-12T02:48:27Z",
   "activities": [
+    {
+      "date": "2026-07-11",
+      "type": "Ride",
+      "name": "Farmers Market & Park",
+      "distance_km": 11.0,
+      "moving_time_minutes": 65,
+      "elevation_gain_meters": 21
+    },
+    {
+      "date": "2026-07-08",
+      "type": "Run",
+      "name": "Lunch Run",
+      "distance_km": 5.0,
+      "moving_time_minutes": 26,
+      "elevation_gain_meters": 8
+    },
+    {
+      "date": "2026-07-08",
+      "type": "Workout",
+      "name": "Beach Volleyball",
+      "distance_km": 0.0,
+      "moving_time_minutes": 65,
+      "elevation_gain_meters": 0
+    },
+    {
+      "date": "2026-07-06",
+      "type": "Run",
+      "name": "Lunch Run",
+      "distance_km": 4.3,
+      "moving_time_minutes": 22,
+      "elevation_gain_meters": 7
+    },
     {
       "date": "2026-07-04",
       "type": "Run",
@@ -3163,16 +3195,16 @@
     }
   ],
   "totals": {
-    "count": 395,
-    "distance_km": 2791.2,
-    "moving_time_hours": 277.32,
-    "elevation_gain_meters": 16287,
+    "count": 399,
+    "distance_km": 2811.4,
+    "moving_time_hours": 280.31,
+    "elevation_gain_meters": 16323,
     "by_type": {
       "Run": {
-        "count": 188,
-        "distance_km": 962.3,
-        "moving_time_hours": 94.69,
-        "elevation_gain_meters": 3154
+        "count": 190,
+        "distance_km": 971.5,
+        "moving_time_hours": 95.5,
+        "elevation_gain_meters": 3169
       },
       "WeightTraining": {
         "count": 117,
@@ -3181,10 +3213,16 @@
         "elevation_gain_meters": 0
       },
       "Ride": {
-        "count": 63,
-        "distance_km": 1703.9,
-        "moving_time_hours": 88.94,
-        "elevation_gain_meters": 6011
+        "count": 64,
+        "distance_km": 1715.0,
+        "moving_time_hours": 90.03,
+        "elevation_gain_meters": 6032
+      },
+      "Workout": {
+        "count": 7,
+        "distance_km": 0.2,
+        "moving_time_hours": 4.01,
+        "elevation_gain_meters": 0
       },
       "Hike": {
         "count": 6,
@@ -3196,12 +3234,6 @@
         "count": 6,
         "distance_km": 4.2,
         "moving_time_hours": 1.88,
-        "elevation_gain_meters": 0
-      },
-      "Workout": {
-        "count": 6,
-        "distance_km": 0.2,
-        "moving_time_hours": 2.92,
         "elevation_gain_meters": 0
       },
       "Volleyball": {

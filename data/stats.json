@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-07-26T02:49:28Z",
+  "generated_at": "2026-08-01T01:22:31Z",
   "activities": [
+    {
+      "date": "2026-07-29",
+      "type": "Run",
+      "name": "Dairy Farm Run",
+      "distance_km": 4.0,
+      "moving_time_minutes": 19,
+      "elevation_gain_meters": 6
+    },
     {
       "date": "2026-07-24",
       "type": "Run",
@@ -3243,16 +3251,16 @@
     }
   ],
   "totals": {
-    "count": 405,
-    "distance_km": 2838.4,
-    "moving_time_hours": 284.39,
-    "elevation_gain_meters": 16401,
+    "count": 406,
+    "distance_km": 2842.4,
+    "moving_time_hours": 284.71,
+    "elevation_gain_meters": 16407,
     "by_type": {
       "Run": {
-        "count": 193,
-        "distance_km": 981.3,
-        "moving_time_hours": 96.37,
-        "elevation_gain_meters": 3206
+        "count": 194,
+        "distance_km": 985.3,
+        "moving_time_hours": 96.68,
+        "elevation_gain_meters": 3212
       },
       "WeightTraining": {
         "count": 118,

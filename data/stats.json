@@ -1,6 +1,46 @@
 {
-  "generated_at": "2026-08-09T01:45:17Z",
+  "generated_at": "2026-08-16T01:18:20Z",
   "activities": [
+    {
+      "date": "2026-08-15",
+      "type": "Run",
+      "name": "Running with the Boys",
+      "distance_km": 3.7,
+      "moving_time_minutes": 22,
+      "elevation_gain_meters": 10
+    },
+    {
+      "date": "2026-08-14",
+      "type": "WeightTraining",
+      "name": "Lunch Weight Training",
+      "distance_km": 0.0,
+      "moving_time_minutes": 24,
+      "elevation_gain_meters": 0
+    },
+    {
+      "date": "2026-08-13",
+      "type": "Run",
+      "name": "Lunch Run",
+      "distance_km": 6.0,
+      "moving_time_minutes": 33,
+      "elevation_gain_meters": 20
+    },
+    {
+      "date": "2026-08-12",
+      "type": "Volleyball",
+      "name": "Beach Volleyball",
+      "distance_km": 0.0,
+      "moving_time_minutes": 69,
+      "elevation_gain_meters": 0
+    },
+    {
+      "date": "2026-08-10",
+      "type": "Run",
+      "name": "Lunch Run",
+      "distance_km": 8.6,
+      "moving_time_minutes": 47,
+      "elevation_gain_meters": 23
+    },
     {
       "date": "2026-08-06",
       "type": "Run",
@@ -3283,21 +3323,21 @@
     }
   ],
   "totals": {
-    "count": 410,
-    "distance_km": 2849.7,
-    "moving_time_hours": 286.86,
-    "elevation_gain_meters": 16430,
+    "count": 415,
+    "distance_km": 2868.1,
+    "moving_time_hours": 290.13,
+    "elevation_gain_meters": 16483,
     "by_type": {
       "Run": {
-        "count": 196,
-        "distance_km": 992.7,
-        "moving_time_hours": 97.4,
-        "elevation_gain_meters": 3235
+        "count": 199,
+        "distance_km": 1011.1,
+        "moving_time_hours": 99.11,
+        "elevation_gain_meters": 3288
       },
       "WeightTraining": {
-        "count": 119,
+        "count": 120,
         "distance_km": 0.0,
-        "moving_time_hours": 61.73,
+        "moving_time_hours": 62.14,
         "elevation_gain_meters": 0
       },
       "Ride": {
@@ -3307,9 +3347,9 @@
         "elevation_gain_meters": 6073
       },
       "Volleyball": {
-        "count": 7,
+        "count": 8,
         "distance_km": 0.0,
-        "moving_time_hours": 7.09,
+        "moving_time_hours": 8.24,
         "elevation_gain_meters": 0
       },
       "Workout": {

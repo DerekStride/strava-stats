@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-09-01T02:09:05Z",
+  "generated_at": "2026-09-06T03:16:51Z",
   "activities": [
+    {
+      "date": "2026-09-03",
+      "type": "Run",
+      "name": "Lunch Run",
+      "distance_km": 7.6,
+      "moving_time_minutes": 46,
+      "elevation_gain_meters": 16
+    },
+    {
+      "date": "2026-09-01",
+      "type": "Run",
+      "name": "Lunch Run",
+      "distance_km": 7.1,
+      "moving_time_minutes": 42,
+      "elevation_gain_meters": 23
+    },
+    {
+      "date": "2026-08-30",
+      "type": "Hike",
+      "name": "Berm Lake Hike",
+      "distance_km": 4.1,
+      "moving_time_minutes": 85,
+      "elevation_gain_meters": 63
+    },
     {
       "date": "2026-08-27",
       "type": "Run",
@@ -3355,16 +3379,16 @@
     }
   ],
   "totals": {
-    "count": 419,
-    "distance_km": 2882.8,
-    "moving_time_hours": 292.63,
-    "elevation_gain_meters": 16504,
+    "count": 422,
+    "distance_km": 2901.6,
+    "moving_time_hours": 295.52,
+    "elevation_gain_meters": 16606,
     "by_type": {
       "Run": {
-        "count": 202,
-        "distance_km": 1025.8,
-        "moving_time_hours": 100.55,
-        "elevation_gain_meters": 3309
+        "count": 204,
+        "distance_km": 1040.4,
+        "moving_time_hours": 102.02,
+        "elevation_gain_meters": 3348
       },
       "WeightTraining": {
         "count": 120,
@@ -3384,17 +3408,17 @@
         "moving_time_hours": 9.3,
         "elevation_gain_meters": 0
       },
+      "Hike": {
+        "count": 7,
+        "distance_km": 60.3,
+        "moving_time_hours": 19.02,
+        "elevation_gain_meters": 2827
+      },
       "Workout": {
         "count": 7,
         "distance_km": 0.2,
         "moving_time_hours": 4.01,
         "elevation_gain_meters": 0
-      },
-      "Hike": {
-        "count": 6,
-        "distance_km": 56.2,
-        "moving_time_hours": 17.59,
-        "elevation_gain_meters": 2764
       },
       "Swim": {
         "count": 6,

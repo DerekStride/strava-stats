@@ -1,10 +1,26 @@
 {
-  "generated_at": "2026-09-27T04:02:19Z",
+  "generated_at": "2026-10-01T02:34:13Z",
   "activities": [
     {
+      "date": "2026-09-29",
+      "type": "Run",
+      "name": "Lunch Run",
+      "distance_km": 10.1,
+      "moving_time_minutes": 52,
+      "elevation_gain_meters": 29
+    },
+    {
+      "date": "2026-09-27",
+      "type": "Run",
+      "name": "Afternoon Run",
+      "distance_km": 4.7,
+      "moving_time_minutes": 25,
+      "elevation_gain_meters": 7
+    },
+    {
       "date": "2026-09-26",
-      "type": "Workout",
-      "name": "Morning Workout",
+      "type": "Hike",
+      "name": "Saturday Hike",
       "distance_km": 3.3,
       "moving_time_minutes": 59,
       "elevation_gain_meters": 17
@@ -3443,16 +3459,16 @@
     }
   ],
   "totals": {
-    "count": 430,
-    "distance_km": 2946.8,
-    "moving_time_hours": 300.89,
-    "elevation_gain_meters": 16804,
+    "count": 432,
+    "distance_km": 2961.6,
+    "moving_time_hours": 302.18,
+    "elevation_gain_meters": 16840,
     "by_type": {
       "Run": {
-        "count": 210,
-        "distance_km": 1079.5,
-        "moving_time_hours": 105.58,
-        "elevation_gain_meters": 3463
+        "count": 212,
+        "distance_km": 1094.3,
+        "moving_time_hours": 106.87,
+        "elevation_gain_meters": 3499
       },
       "WeightTraining": {
         "count": 120,
@@ -3466,6 +3482,12 @@
         "moving_time_hours": 91.13,
         "elevation_gain_meters": 6073
       },
+      "Hike": {
+        "count": 9,
+        "distance_km": 66.4,
+        "moving_time_hours": 20.82,
+        "elevation_gain_meters": 2910
+      },
       "Volleyball": {
         "count": 9,
         "distance_km": 0.0,
@@ -3473,16 +3495,10 @@
         "elevation_gain_meters": 0
       },
       "Workout": {
-        "count": 8,
-        "distance_km": 3.5,
-        "moving_time_hours": 4.99,
-        "elevation_gain_meters": 17
-      },
-      "Hike": {
-        "count": 8,
-        "distance_km": 63.1,
-        "moving_time_hours": 19.84,
-        "elevation_gain_meters": 2893
+        "count": 7,
+        "distance_km": 0.2,
+        "moving_time_hours": 4.01,
+        "elevation_gain_meters": 0
       },
       "Swim": {
         "count": 6,

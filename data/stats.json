@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-10-11T04:24:30Z",
+  "generated_at": "2026-10-18T03:21:13Z",
   "activities": [
+    {
+      "date": "2026-10-14",
+      "type": "Run",
+      "name": "Lunch Run",
+      "distance_km": 7.6,
+      "moving_time_minutes": 42,
+      "elevation_gain_meters": 13
+    },
     {
       "date": "2026-10-06",
       "type": "Run",
@@ -3483,16 +3491,16 @@
     }
   ],
   "totals": {
-    "count": 435,
-    "distance_km": 2980.7,
-    "moving_time_hours": 303.92,
-    "elevation_gain_meters": 16881,
+    "count": 436,
+    "distance_km": 2988.3,
+    "moving_time_hours": 304.62,
+    "elevation_gain_meters": 16894,
     "by_type": {
       "Run": {
-        "count": 215,
-        "distance_km": 1113.5,
-        "moving_time_hours": 108.62,
-        "elevation_gain_meters": 3540
+        "count": 216,
+        "distance_km": 1121.1,
+        "moving_time_hours": 109.31,
+        "elevation_gain_meters": 3553
       },
       "WeightTraining": {
         "count": 120,

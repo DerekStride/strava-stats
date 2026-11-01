@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-10-25T03:30:53Z",
+  "generated_at": "2026-11-01T02:43:25Z",
   "activities": [
+    {
+      "date": "2026-10-29",
+      "type": "Run",
+      "name": "Lunch Run",
+      "distance_km": 6.2,
+      "moving_time_minutes": 35,
+      "elevation_gain_meters": 13
+    },
+    {
+      "date": "2026-10-25",
+      "type": "Hike",
+      "name": "Jack Pine Trail",
+      "distance_km": 2.0,
+      "moving_time_minutes": 35,
+      "elevation_gain_meters": 5
+    },
     {
       "date": "2026-10-24",
       "type": "Hike",
@@ -3507,16 +3523,16 @@
     }
   ],
   "totals": {
-    "count": 438,
-    "distance_km": 2999.4,
-    "moving_time_hours": 306.37,
-    "elevation_gain_meters": 16920,
+    "count": 440,
+    "distance_km": 3007.7,
+    "moving_time_hours": 307.53,
+    "elevation_gain_meters": 16938,
     "by_type": {
       "Run": {
-        "count": 217,
-        "distance_km": 1127.7,
-        "moving_time_hours": 109.91,
-        "elevation_gain_meters": 3559
+        "count": 218,
+        "distance_km": 1134.0,
+        "moving_time_hours": 110.48,
+        "elevation_gain_meters": 3572
       },
       "WeightTraining": {
         "count": 120,
@@ -3531,10 +3547,10 @@
         "elevation_gain_meters": 6073
       },
       "Hike": {
-        "count": 10,
-        "distance_km": 70.9,
-        "moving_time_hours": 21.98,
-        "elevation_gain_meters": 2930
+        "count": 11,
+        "distance_km": 72.9,
+        "moving_time_hours": 22.56,
+        "elevation_gain_meters": 2935
       },
       "Volleyball": {
         "count": 9,
